@@ -154,9 +154,10 @@ padding: 3px;
 margin-bottom: 15px;
 }
 .banner1{
+
     width: 100%;
     height: 60vh;
-    background-image: url("/img/hero1.jpg");
+    background-image: url("./img/hero1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -271,7 +272,7 @@ color: rgb(10, 96, 10);
 }
 /* Home- Banner2 */
 .banner2{
-    background-image: url("/img/banner/b2.jpg");
+    background-image: url("./img/banner/b2.jpg");
    height: 30vh;
    display: flex;
    justify-content: center;
@@ -298,7 +299,7 @@ background-size: cover;
     /* align-items: center; */
 }
  .ban-img{
-    background-image: url("/img/banner/b17.jpg");
+    background-image: url("./img/banner/b17.jpg");
     width:500px;
     height: 50vh;
     background-size: cover;
@@ -317,7 +318,7 @@ background-size: cover;
     color: whitesmoke;
 }
 .ban-img.imgb10{
-    background-image: url("/img/banner/b10.jpg");
+    background-image: url("./img/banner/b10.jpg");
 }
 .ban-box2{
    display: flex;
@@ -325,7 +326,7 @@ background-size: cover;
    flex-wrap: wrap;
 }
 .ban-box2 .ban-img21{
-/* background-image: url("/img/banner/b7.jpg"); */
+/* background-image: url("./img/banner/b7.jpg"); */
 width: 300px;
 height: 30vh;
 display: flex;
@@ -343,20 +344,20 @@ margin: 10px;
     color: rgb(225, 62, 62);
 } 
 .ban-box2 .ban-img21:nth-child(1){
-    background-image: url("/img/banner/b7.jpg");
+    background-image: url("./img/banner/b7.jpg");
 }
 .ban-box2 .ban-img21:nth-child(2){
-    background-image: url("/img/banner/b4.jpg");
+    background-image: url("./img/banner/b4.jpg");
 }
 .ban-box2 .ban-img21:nth-child(3){
-    background-image: url("/img/banner/b10.jpg");
+    background-image: url("./img/banner/b10.jpg");
 }
 
 /* .ban-box2 .secimg{
-    background-image: url("/img/banner/b4.jpg");
+    background-image: url("./img/banner/b4.jpg");
 }
 .ban-box2 .thirdimg{
-    background-image: url("/img/banner/b18.jpg");
+    background-image: url("./img/banner/b18.jpg");
 } */
 .banner4{
 background-color: rgb(11, 11, 71);
@@ -441,7 +442,7 @@ flex-wrap: wrap;
 color: #fff;
 }
 .banner2{
-    background-image: url("/img/banner/b1.jpg");
+    background-image: url("./img/banner/b1.jpg");
    height: 30vh;
    display: flex;
    justify-content: center;
@@ -546,7 +547,7 @@ color: #fff;
 /* Blog Page */
 
 .blogban2{
-    background-image: url("/img/banner/b2.jpg");
+    background-image: url("./img/banner/b2.jpg");
    height: 30vh;
    display: flex;
    justify-content: center;
@@ -600,7 +601,7 @@ margin: 0 30px;
 
 /* About page */
 .aboutban2{
-    background-image: url("/img/about/banner.png");
+    background-image: url("./img/about/banner.png");
    height: 30vh;
    display: flex;
    justify-content: center;
