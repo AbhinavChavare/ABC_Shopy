@@ -12,6 +12,8 @@ menubtn.addEventListener('click',()=>{
    navl.classList.toggle("mobile")
    menubtn.classList.toggle("fa-times")
 })
+
+
 let mainimg=document.getElementById("mainimg");
 let smallimg=document.getElementsByClassName("smallimg");
 

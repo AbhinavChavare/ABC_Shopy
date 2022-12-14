@@ -56,7 +56,7 @@ button.normal:hover{
     background-color: rgb(121, 239, 239);
     color: rgb(3, 3, 3);
     box-shadow: 1px 0 2px black;
-    scale: 1.05;
+    scale: 1.01;
 }
 .white{
     padding: 5px 10px;
@@ -138,7 +138,7 @@ padding-left:3rem;
 #navbar ul li a.active::after, #navbar ul li a:hover::after{ 
     content:"";
    position: absolute;
-   top: 25px;
+   top: 28px;
    left: 5px;
    width: 25px;
    height: 2px;
@@ -151,13 +151,13 @@ padding-left:3rem;
 }
 #cartlogo{
 padding: 3px;
-margin-bottom: 15px;
+margin-bottom: 0px;
 }
 .banner1{
 
     width: 100%;
     height: 60vh;
-    background-image: url("./img/hero1.jpg");
+    background-image: url("./img/home5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -429,6 +429,9 @@ flex-wrap: wrap;
 .fo-install .in-app{
     display: flex;
 }
+.in-app img{
+    max-width: 130px;
+}
 .footer2{
     text-align: center;
 }
@@ -592,8 +595,8 @@ margin: 0 30px;
 .blog-fea-con h5::after{
     content: "";
     position: absolute;
-    top: 12px;
-    right: -20px;
+    top: 13px;
+    right: -25px;
     width: 40px;
     height: 2px;
     background-color: rgb(67, 63, 63);
@@ -671,7 +674,7 @@ margin: 20px 3px;}
     height: 400px;
 }
 .sign-con{
-    width: 55vmin;
+    width: 70vmin;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -695,13 +698,18 @@ margin: 20px 3px;}
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .person img{
-    width: 40px;
+    width: 70px;
     margin: 10px 10px;
+    border-radius: 50%;
 }
 .person-det{
     margin: 10px 10px;
+    word-break: break-all;
 }
 .sign-details{
     display: flex;
